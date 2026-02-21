@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main() {
+  String name = "Tahmidur Rahman Ovi";
+
+  for (int i = 0; i < 101; i++) {
+    print(name);
+  }
+}

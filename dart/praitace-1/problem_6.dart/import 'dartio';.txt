@@ -1,0 +1,11 @@
+import 'dart:io';
+
+void main() {
+  stdout.write("Enter first name: ");
+  String firstName = stdin.readLineSync()!;
+
+  stdout.write("Enter second name: ");
+  String secondName = stdin.readLineSync()!; 
+
+  print(firstName + " " +secondName); 
+}

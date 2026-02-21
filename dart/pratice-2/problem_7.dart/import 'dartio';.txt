@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main() {
+  for (int i = 0; i <= 9; i++) {
+    print(i);
+     for (int j = 0; j <= 10; j++) {
+      print("$i x $j = ${i * j}");
+    }
+  }
+ 
+  print("");
+}

@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main() {
+  stdout.write('Total Bill Amount: ');
+  double bill = double.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter member: ");
+  int member = int.parse(stdin.readLineSync()!);
+
+  double formula = bill / member;
+  print(formula);
+}

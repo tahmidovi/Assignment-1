@@ -1,0 +1,17 @@
+import 'dart:io';
+
+void main() {
+  stdout.write('Enter first number: ');
+  int firstNumber = int.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter second number: ");
+  int secondNumber = int.parse(stdin.readLineSync()!);
+
+  int temp = firstNumber;
+  firstNumber = secondNumber;
+  secondNumber = temp;
+
+  print(firstNumber);
+  print(secondNumber); 
+  
+}

@@ -1,0 +1,8 @@
+import 'dart:io';
+
+void main() {
+  String number = "345";
+
+  int digit = int.parse(number);
+  print(digit);
+}

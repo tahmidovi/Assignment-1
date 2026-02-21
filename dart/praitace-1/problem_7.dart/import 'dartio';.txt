@@ -1,0 +1,15 @@
+import 'dart:io';
+
+void main() {
+  stdout.write('Enter first number: ');
+  int firstNumber = int.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter second number: ");
+  int secondNumber = int.parse(stdin.readLineSync()!);
+
+  double quotient = firstNumber / secondNumber;
+  int remainder = firstNumber % secondNumber;
+
+  print(quotient);
+  print(remainder);
+}
